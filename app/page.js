@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className="h-screen">
-       <CtaFooter/>
+       <Home/>
    
     </div>
   );
