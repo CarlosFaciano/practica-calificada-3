@@ -1,23 +1,23 @@
 
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
+import Service from "./service/page";
+import Projects from "./projects/page";
+import Details from "./details/page";
+import Team from "./team/page";
+import PrincipalPage from "./home/page";
+import Testimonial from "./testimonials/page";
+import Blog from "./blog/page";
+import ContactUs from "./contactUs/page";
+import CtaFooter from "@/components/CtaFooter";
 
 
 export default function Home() {
 
   return (
-    <div className="w-[1600px] h-[665px] ">
-      <NavBar />
-      <div className=" bg-[url('/images/illustration1.png')] w-screen  h-[97%] flex  bg-no-repeat bg-contain overflow-hidden bg-violet-100  bg-right">
-      <div className="flex w-full justify-center items-center">
-      <h1 className="text-5xl font-bold bg-gradient-to-r from-violet-600 to-blue-500 text-transparent bg-clip-text">Bootstrap 5 theme</h1>
-      <h2 className="text-black/30">Crafted by <span>ThemeWagon</span></h2>
-      </div>
-      </div>
-      
-
-
-
+    <div className="h-screen">
+       <CtaFooter/>
+   
     </div>
   );
 }

@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.grande{
+  grid-row:2/4;
+}
+.grande2{
+  grid-row:1/3;
+}
+.columna1{
+  grid-column: 1/2;
+}

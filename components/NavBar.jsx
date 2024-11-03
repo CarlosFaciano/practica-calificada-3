@@ -33,6 +33,7 @@ export default function NavBar() {
                 </li>
             </ul>
             <ul className='flex gap-8'>
+                
                 <li>Home</li>
                 <li>Service</li>
                 <li>Works</li>
@@ -41,7 +42,7 @@ export default function NavBar() {
             </ul>
             <ul className='flex gap-8 me-5 ms-[50%] items-center'>
                 <li className='text-blue-400'>Log in</li>
-                <li className='bg-white p-3 rounded-xl'>Sign up</li>
+                <li className='bg-white p-3  rounded-xl'><span className='bg-gradient-to-r from-violet-500 to-blue-500 text-transparent bg-clip-text p-3 rounded-xl'>Sign up</span></li>
             </ul>
             
         </nav>
