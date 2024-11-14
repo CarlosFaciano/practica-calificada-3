@@ -15,7 +15,7 @@ export default function Details() {
 
           <article className='flex flex-col ms-4 '>
             <h2 className='text-black text-3xl font-bold'>A creative team that which <br /> builds stunning UI/UX</h2>
-            <p className='text-black/50 font-medium mt-7'>Today i'd like to show you some incredible Sign up screen app <br /> UI ideas and concepts that offer a modern user experience. <br /> The most stunning, cutting edge UI/UX</p>
+            <p className='text-black/50 font-medium mt-7'>Today i&apos;d like to show you some incredible Sign up screen app <br /> UI ideas and concepts that offer a modern user experience. <br /> The most stunning, cutting edge UI/UX</p>
             <p className='mt-7 text-black/50 font-medium'>Klean is a free bootstrap 5 template for multipurpose landing <br /> pages. This design is a perfect choice, carefully curated by <br /> <span className='text-black/80 font-medium'>ThemeWagon</span></p>
             <button className='mt-10 bg-gradient-to-br from-violet-500 to-blue-500 h-12 w-32 rounded-full p-[1.5px]'>
               <div className='bg-violet-100 h-full w-full rounded-full flex justify-center items-center'>
@@ -31,7 +31,7 @@ export default function Details() {
 
         <article className='flex flex-col ms-4 '>
           <h2 className='text-black text-3xl font-bold'>Devoted to defining <br/> the cutting edge</h2>
-          <p className='text-black/50 font-medium mt-7'>"This new creation is cutting-edge technology." Says the <br/> researcher. "whose study originates from a business <br/> at the forefront of space science."</p>
+          <p className='text-black/50 font-medium mt-7'>&quot;This new creation is cutting-edge technology.&quot; Says the <br/> researcher. &quot;whose study originates from a business <br/> at the forefront of space science.&quot;</p>
           <p className='mt-7 text-black/50 font-medium'>Klean is a free bootstrap 5 template for multipurpose landing <br /> pages. This design is a perfect choice, carefully curated by <br /> <span className='text-black/80 font-medium'>ThemeWagon</span></p>
           <button className='mt-10 bg-gradient-to-br from-violet-500 to-blue-500 h-12 w-32 rounded-full p-[1.5px]'>
             <div className='bg-violet-100 h-full w-full rounded-full flex justify-center items-center'>
