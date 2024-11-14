@@ -1,6 +1,8 @@
+import CtaFooter from '@/components/CtaFooter'
 import React from 'react'
 export default function Projects() {
     return (
+        <>
         <div className='h-screen w-screen bg-violet-100 flex flex-col overflow-y-auto'>
             <header className='flex flex-col w-screen items-center mb-10'>
                 <h1 className='text-3xl font-medium mt-6'>Our Projects</h1>
@@ -29,5 +31,7 @@ export default function Projects() {
                 
             </div>
         </div>
+        <CtaFooter/>
+        </>
     )
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Stars from '@/components/stars'
+import CtaFooter from '@/components/CtaFooter'
 export default function Testimonial() {
     return (
+        <>
         <div className='flex flex-col items-center bg-violet-100 w-screen h-screen'>
             <header className='flex flex-col w-screen items-center mb-10'>
                 <h1 className='text-3xl font-bold mt-6'>What our clients have to say</h1>
@@ -31,5 +33,7 @@ export default function Testimonial() {
                  </article>
             </div>
         </div>
+        <CtaFooter/>
+        </>
     )
 }

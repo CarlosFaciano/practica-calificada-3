@@ -1,9 +1,11 @@
 import React from 'react'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
+import CtaFooter from '@/components/CtaFooter'
 export default function PrincipalPage() {
   return (
-    <div className="w-[max-width: 1600px] h-[665px] ">
+    <>
+    <div className="w-[max-width: 1600px] h-[665px] overflow-x-hidden">
     <NavBar />
     <div className="  flex  h-full  bg-no-repeat bg-contain  bg-violet-100  bg-right justify-end">
       <figure className=" h-full w-2/3 bg-no-repeat bg-right flex justify-end">
@@ -26,9 +28,8 @@ export default function PrincipalPage() {
         <img className="w-[12%] h-14" src="./images/2.home/themewagon.png"></img>
 
       </footer>
-
-
-
   </div>
+  <CtaFooter/>
+  </>
   )
 }

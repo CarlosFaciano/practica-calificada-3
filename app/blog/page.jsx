@@ -1,3 +1,4 @@
+import CtaFooter from '@/components/CtaFooter'
 import EyeIcon from '@/components/icons/EyeIcon'
 import LikeIcon from '@/components/icons/LikeIcon'
 import React from 'react'
@@ -98,6 +99,7 @@ export default function Blog() {
 
 
             </section>
+            <CtaFooter/>
         </>
     )
 }

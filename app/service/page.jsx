@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import CtaFooter from '@/components/CtaFooter'
 
 
 export default function Service() {
     return (
+        <>
         <section className='flex justify-center '>
             <div className='h-screen w-screen bg-violet-100 flex flex-col content-center justify-center'>
                 <header className='flex flex-col w-screen items-center'>
@@ -54,5 +56,7 @@ export default function Service() {
                 </div>
             </div>
         </section>
+        <CtaFooter/>
+        </>
     )
 }

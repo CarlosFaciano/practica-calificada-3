@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import CtaFooter from '@/components/CtaFooter'
 export default function Team() {
     return (
+        <>
         <header className='flex flex-col w-screen h-screen items-center mb-10 bg-violet-100 '>
             <h1 className='text-3xl font-medium mt-6'>Our Team</h1>
             <p className='text-black/30 mt-6 text-center'>People from various origins, cultures, and personalities make up our team. <br/> This blend makes it a powerful team.
@@ -22,5 +24,8 @@ export default function Team() {
             </button>
         </div>
         </header>
+        <CtaFooter/>
+        </>
+
     )
 }

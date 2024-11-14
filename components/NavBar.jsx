@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function NavBar() {
@@ -34,11 +35,11 @@ export default function NavBar() {
             </ul>
             <ul className='flex gap-8'>
                 
-                <li>Home</li>
-                <li>Service</li>
-                <li>Works</li>
-                <li>News</li>
-                <li>Contact</li>
+                <Link href="/"><li>Home</li></Link>
+                <Link href="/service"> <li>Service</li></Link>
+                <Link href="/projects"><li>Works</li></Link>
+                <Link href="/features"><li>News</li></Link>
+                <Link href="/contactUs"><li>Contact</li></Link>
             </ul>
             <ul className='flex gap-8 me-5 ms-[50%] items-center'>
                 <li className='text-blue-400'>Log in</li>

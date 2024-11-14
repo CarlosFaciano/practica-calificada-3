@@ -1,7 +1,9 @@
+import CtaFooter from '@/components/CtaFooter'
 import React from 'react'
 
 export default function Features() {
   return (
+    <>
     <section className='flex flex-col justify-center bg-violet-100'>
          <div className='h-screen w-screen bg-violet-100 flex flex-col '>
                 <header className='flex flex-col w-screen items-center mb-10'>
@@ -50,7 +52,8 @@ export default function Features() {
                 </div>
          </div>
     </section>
-   
+    <CtaFooter/>
+   </>
     
   )
 }

@@ -1,3 +1,4 @@
+import CtaFooter from '@/components/CtaFooter'
 import Location from '@/components/icons/Location'
 import Mail from '@/components/icons/mail'
 import PenIcon from '@/components/icons/PenIcon'
@@ -62,6 +63,7 @@ export default function ContactUs() {
                     </ul>
                 </div>
             </section>
+            <CtaFooter/>
         </>
     )
 }
